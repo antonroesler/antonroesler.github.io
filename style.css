@@ -3892,9 +3892,3 @@ ul {
     padding-right: 0;
     max-height: 5rem;
 }
-
-@media screen and (max-width: 768px) {
-    .logo {
-        width: 50%
-    }
-}
