@@ -3879,3 +3879,22 @@ hr.cert {
 ul {
     list-style-type: none;
 }
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    padding-right: 0;
+    max-height: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 50%
+    }
+}
